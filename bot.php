@@ -12,7 +12,7 @@ function makeCurl($api,$method,$datas=[]){
     return $server_output;
 }
 
-$api = "113422787:AAGmxRD5ABzfGlEqMm4f0WzwavrHQeMCiNw";
+$api = "284890957:AAHovpM5UlIoV8eBhowl4KEZukFNjhQ9XQo";
 $robot = makeCurl($api,"getMe");
 $updates = makeCurl($api,"getUpdates",[
     "limit"=>1
